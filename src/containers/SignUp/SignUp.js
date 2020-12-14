@@ -61,7 +61,7 @@ const SignUp = (props) => {
                     <LockOutlinedIcon />
                 </Avatar>
                 <Typography component="h1" variant="h5">
-                    Sign up
+                    Register to Glovo
         </Typography>
                 <form onSubmit={(e) => registerUser(e, props.history)} className={classes.form}>
                     <Grid container spacing={2}>
