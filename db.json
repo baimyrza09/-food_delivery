@@ -1,0 +1,42 @@
+{
+    "cafes": [
+        {
+            "id": 0,
+            "name": "NAVAT",
+            "address": "Magistral",
+            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D578270598971441&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnavat.kg%2Fphotos%2F%3Ftab%3Dalbums&tbnid=dR7b566pKZIowM&vet=12ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ..i&docid=WuzgqAj2zWl-2M&w=960&h=960&itg=1&q=navat&ved=2ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ",
+            "menu": [
+                {
+                    "title": "plov",
+                    "price": "150",
+                    "img": "https://eda.ru/recepty/osnovnye-blyuda/nastojaschij-uzbekskij-plov-21930"
+                },
+                {
+                   
+                    "title": "Shashlyk",
+                    "price": "200", 
+                    "img": "https://www.sweetandsavorybyshinee.com/pork-kebabs-russian-pork-shashlik/"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Vostochka",
+            "address": "Magistral",
+            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D578270598971441&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnavat.kg%2Fphotos%2F%3Ftab%3Dalbums&tbnid=dR7b566pKZIowM&vet=12ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ..i&docid=WuzgqAj2zWl-2M&w=960&h=960&itg=1&q=navat&ved=2ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ",
+            "menu": [
+                {
+                    "title": "plov",
+                    "price": "150",
+                    "img": "https://eda.ru/recepty/osnovnye-blyuda/nastojaschij-uzbekskij-plov-21930"
+                },
+                {
+                   
+                    "title": "Shashlyk",
+                    "price": "200",
+                    "img": "https://www.sweetandsavorybyshinee.com/pork-kebabs-russian-pork-shashlik/"
+                }
+            ]
+        }
+    ]
+}
