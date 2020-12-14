@@ -42,7 +42,8 @@ const useStyles = makeStyles((theme) => ({
     },
     submit: {
         margin: theme.spacing(3, 0, 2),
-    },
+    }
+
 }));
 
 const SignUp = (props) => {
@@ -54,7 +55,7 @@ const SignUp = (props) => {
     }
 
     return (
-        <Container component="main" maxWidth="xs">
+        <Container component="main" maxWidth="xs" style={{backgroundColor: "lightblue"}}>
             <CssBaseline />
             <div className={classes.paper}>
                 <Avatar className={classes.avatar}>
