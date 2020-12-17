@@ -1,42 +1,96 @@
 {
-    "cafes": [
+  "cafes": [
+    {
+      "name": "Navat",
+      "menu": [
         {
-            "id": 0,
-            "name": "NAVAT",
-            "address": "Magistral",
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D578270598971441&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnavat.kg%2Fphotos%2F%3Ftab%3Dalbums&tbnid=dR7b566pKZIowM&vet=12ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ..i&docid=WuzgqAj2zWl-2M&w=960&h=960&itg=1&q=navat&ved=2ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ",
-            "menu": [
-                {
-                    "title": "plov",
-                    "price": "150",
-                    "img": "https://eda.ru/recepty/osnovnye-blyuda/nastojaschij-uzbekskij-plov-21930"
-                },
-                {
-                   
-                    "title": "Shashlyk",
-                    "price": "200", 
-                    "img": "https://www.sweetandsavorybyshinee.com/pork-kebabs-russian-pork-shashlik/"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "name": "Vostochka",
-            "address": "Magistral",
-            "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D578270598971441&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fnavat.kg%2Fphotos%2F%3Ftab%3Dalbums&tbnid=dR7b566pKZIowM&vet=12ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ..i&docid=WuzgqAj2zWl-2M&w=960&h=960&itg=1&q=navat&ved=2ahUKEwjFpYH-8cztAhXKE3cKHYu0CXwQMygNegUIARCvAQ",
-            "menu": [
-                {
-                    "title": "plov",
-                    "price": "150",
-                    "img": "https://eda.ru/recepty/osnovnye-blyuda/nastojaschij-uzbekskij-plov-21930"
-                },
-                {
-                   
-                    "title": "Shashlyk",
-                    "price": "200",
-                    "img": "https://www.sweetandsavorybyshinee.com/pork-kebabs-russian-pork-shashlik/"
-                }
-            ]
+          "title": "2",
+          "price": "2",
+          "img": "2",
+          "id": 1608133464611
         }
-    ]
+      ],
+      "address": "Magist",
+      "image": "https://scontent.ffru7-1.fna.fbcdn.net/v/t31.0-8/18358618_1022391411226022_144215078815049299_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=abCk3mUYMd8AX8_rhuL&_nc_ht=scontent.ffru7-1.fna&oh=dd85e560a3f96b2fcacf76829e1e3ce1&oe=5FFBCA3D",
+      "id": 1
+    },
+    {
+      "name": "Navat",
+      "menu": [
+        {
+          "title": "plov",
+          "price": "150",
+          "img": "https://eda.ru/img/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120131082729/120213185956/p_O.jpg",
+          "id": 1608099659813
+        }
+      ],
+      "address": "Magist",
+      "image": "https://scontent.ffru7-1.fna.fbcdn.net/v/t31.0-8/18358618_1022391411226022_144215078815049299_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=abCk3mUYMd8AX8_rhuL&_nc_ht=scontent.ffru7-1.fna&oh=dd85e560a3f96b2fcacf76829e1e3ce1&oe=5FFBCA3D",
+      "id": 2
+    },
+    {
+      "name": "Navat",
+      "menu": [
+        {
+          "title": "plov",
+          "price": "150",
+          "img": "https://eda.ru/img/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120131082729/120213185956/p_O.jpg",
+          "id": 1608099659813
+        }
+      ],
+      "address": "Magist",
+      "image": "https://scontent.ffru7-1.fna.fbcdn.net/v/t31.0-8/18358618_1022391411226022_144215078815049299_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=abCk3mUYMd8AX8_rhuL&_nc_ht=scontent.ffru7-1.fna&oh=dd85e560a3f96b2fcacf76829e1e3ce1&oe=5FFBCA3D",
+      "id": 3
+    },
+    {
+      "name": "Navat",
+      "menu": [
+        {
+          "title": "plov",
+          "price": "150",
+          "img": "https://eda.ru/img/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120131082729/120213185956/p_O.jpg",
+          "id": 1608099659813
+        }
+      ],
+      "address": "Magist",
+      "image": "https://scontent.ffru7-1.fna.fbcdn.net/v/t31.0-8/18358618_1022391411226022_144215078815049299_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=abCk3mUYMd8AX8_rhuL&_nc_ht=scontent.ffru7-1.fna&oh=dd85e560a3f96b2fcacf76829e1e3ce1&oe=5FFBCA3D",
+      "id": 4
+    },
+    {
+      "name": "Navat",
+      "menu": [
+        {
+          "title": "plov",
+          "price": "150",
+          "img": "https://eda.ru/img/eda/c620x415i/s2.eda.ru/StaticContent/Photos/120131082729/120213185956/p_O.jpg",
+          "id": 1608099659813
+        }
+      ],
+      "address": "Magist",
+      "image": "https://scontent.ffru7-1.fna.fbcdn.net/v/t31.0-8/18358618_1022391411226022_144215078815049299_o.jpg?_nc_cat=109&ccb=2&_nc_sid=09cbfe&_nc_ohc=abCk3mUYMd8AX8_rhuL&_nc_ht=scontent.ffru7-1.fna&oh=dd85e560a3f96b2fcacf76829e1e3ce1&oe=5FFBCA3D",
+      "id": 5
+    },
+    {
+      "name": "vostochka",
+      "menu": [],
+      "address": "l",
+      "image": "l",
+      "id": 8
+    }
+  ],
+  "profile": [
+    {
+      "id": 0,
+      "avatar": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fyt3.ggpht.com%2Fytc%2FAAUvwnho2FAVEUDl410wTBzHAULHeXjj7hNpFlB3LLOwJA%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCFctpiB_Hnlk3ejWfHqSm6Q&tbnid=qhBpKriB5HaezM&vet=12ahUKEwjvt-LLhs_tAhXx_CoKHVmiB9kQMygGegUIARCuAQ..i&docid=AOX6nQ16NUnDSM&w=900&h=900&q=pokemon&ved=2ahUKEwjvt-LLhs_tAhXx_CoKHVmiB9kQMygGegUIARCuAQ",
+      "name": "Gulzada",
+      "lastname": "Zhumashova",
+      "email": "zhumashovаgulzada@gmail.com",
+      "phone": "+996700905720",
+      "address": "Abadanova43",
+      "Abadanova4": "Abadanova4",
+      "Gulzadah": "Gulzadah",
+      "Zhumashovad": "Zhumashovad",
+      "Zhumashovaf": "Zhumashovaf"
+    }
+  ]
 }
