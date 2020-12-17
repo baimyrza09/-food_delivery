@@ -67,7 +67,7 @@ const SignUp = (props) => {
     }
 
     return (
-        <Container component="main" maxWidth="xs">
+        <Container component="main" maxWidth="xs" style={{backgroundColor: "lightblue"}}>
             <CssBaseline />
             <div className={classes.paper}>
                 <Avatar className={classes.avatar}>
