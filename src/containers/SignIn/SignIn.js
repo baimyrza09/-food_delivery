@@ -3,8 +3,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Paper from '@material-ui/core/Paper';
 import Box from '@material-ui/core/Box';
@@ -53,6 +51,7 @@ const useStyles = makeStyles((theme) => ({
     form: {
         width: '100%', // Fix IE 11 issue.
         marginTop: theme.spacing(1),
+        
     },
     submit: {
         margin: theme.spacing(3, 0, 2),
@@ -77,7 +76,7 @@ function SignIn(props) {
                         </Typography>
                         <form onSubmit={(e) => loginUser(e, props.history)} className={classes.form}>
                         <TextField
-                            variant="outlined"
+                            // variant="outlined"
                             margin="normal"
                             required
                             fullWidth
@@ -88,7 +87,7 @@ function SignIn(props) {
                             autoFocus
                         />
                         <TextField
-                            variant="outlined"
+                            // variant="outlined"
                             margin="normal"
                             required
                             fullWidth
@@ -102,13 +101,15 @@ function SignIn(props) {
                             type="submit"
                             fullWidth
                             variant="contained"
-                            color="primary"
+                            color="secondary"
                             className={classes.submit}
                         >
                             Sign In
                         </Button>
                         <Grid container>
-                            <Grid item>
+
+
+<Grid item>
                                 <Link onClick={() => hasnotAccount(props.history)} variant="body2">
                                     {"Don't have an account? Sign Up"}
                                 </Link>

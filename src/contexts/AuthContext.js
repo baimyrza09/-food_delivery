@@ -55,8 +55,7 @@ const AuthContextProvider = ({ children}) => {
     function hasAccount(history) {
         history.push("/signin");
     }
-
-
+    
     return (
         <authContext.Provider value={{
             registerUser,
