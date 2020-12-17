@@ -26,6 +26,17 @@ function Copyright() {
 }
 
 const useStyles = makeStyles((theme) => ({
+    root: {
+        height: '100vh',
+    },
+    image: {
+        backgroundImage: 'url(https://source.unsplash.com/random)',
+        backgroundRepeat: 'no-repeat',
+        backgroundColor:
+            theme.palette.type === 'light' ? theme.palette.grey[50] : theme.palette.grey[900],
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+    },
     paper: {
         marginTop: theme.spacing(8),
         display: "flex",
@@ -39,6 +50,7 @@ const useStyles = makeStyles((theme) => ({
     form: {
         width: "100%", // Fix IE 11 issue.
         marginTop: theme.spacing(3),
+
     },
     submit: {
         margin: theme.spacing(3, 0, 2),
@@ -68,7 +80,7 @@ const SignUp = (props) => {
                     <Grid container spacing={2}>
                         <Grid item xs={12}>
                             <TextField
-                                variant="outlined"
+                                // variant="outlined"
                                 required
                                 fullWidth
                                 id="email"
@@ -79,7 +91,7 @@ const SignUp = (props) => {
                         </Grid>
                         <Grid item xs={12}>
                             <TextField
-                                variant="outlined"
+                                // variant="outlined"
                                 required
                                 fullWidth
                                 name="password"
@@ -95,7 +107,7 @@ const SignUp = (props) => {
                         type="submit"
                         fullWidth
                         variant="contained"
-                        color="primary"
+                        color="secondary"
                         className={classes.submit}
                     >
                         Sign Up
